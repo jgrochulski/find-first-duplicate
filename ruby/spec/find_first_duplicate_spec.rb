@@ -10,7 +10,7 @@ RSpec.describe '#find_first_duplicate' do
   end
 
   it 'finds the first duplicate when there is only one duplicate' do
-    expect(find_first_duplicate([2, 2])).to eq(2)
+    expect(find_first_duplicate([2, 2])).to eq(1)
   end
 
   it 'finds the first duplicate in an Array containing multiple duplicates' do
